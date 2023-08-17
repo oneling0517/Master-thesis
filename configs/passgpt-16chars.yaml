@@ -10,7 +10,7 @@ config_args:
 # Details for model architecture. Set parameters directly for GPT2Config (https://huggingface.co/docs/transformers/model_doc/gpt2#transformers.GPT2Config)
 model_args:
     n_head: 12
-    n_layer: 8
+    n_layer: 10
 
 # Set parameters directly for TrainingArguments (https://huggingface.co/docs/transformers/main_classes/trainer#transformers.TrainingArguments)
 training_args:
