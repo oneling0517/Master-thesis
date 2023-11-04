@@ -1,7 +1,7 @@
 # Execution-wide parameters
 config_args:
     seed: 14
-    maxchars: 16 # Maximum characters to be considered in your passwords
+    maxchars: 10 # Maximum characters to be considered in your passwords
     subsample: -1 # -1 means no subsampling training data
     #tokenizer_path: "javirandor/passgpt-16characters" # Introdue the path or huggingface name for your tokenizer
     tokenizer_path: 'src/byte_bpe_tokenizer_99'
